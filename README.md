@@ -1,16 +1,79 @@
-# React + Vite
+# ✨ Star(bip)Map
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Transform your BIP-39 Mnemonic Seed Phrases into unique, aesthetic Star Map visualizations.**
 
-Currently, two official plugins are available:
+Star(bip)Map is a security-focused creative tool that converts the deterministic data of a 12 or 24-word recovery phrase into a beautiful cosmic map. It provides an alternative way to "back up" your keys as a visual artifact that looks like art but contains the structural data of your seed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🌌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Deterministic Visualization**: Every unique mnemonic phrase generates a unique, reproducible star pattern.
+- **Zodiac Integration**: Stars are mapped within a professional-grade Zodiac ring and celestial coordinate system.
+- **Customizable HUD**:
+  - **Grid System**: Toggle between 'Simple' and 'Full' celestial coordinate grids.
+  - **Transformation**: Rotate the map to your preferred orientation before exporting.
+  - **High-Resolution Export**: Save your map as a crystal-clear 2048x2048 PNG, perfect for physical printing or digital storage.
+- **Responsive Design**: Premium dark-mode UI that works seamlessly on Desktop, iPad, and Mobile.
+- **Security First**: All processing happens locally in your browser. No seed phrases are ever sent to a server.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Exporting**: [html-to-image](https://www.npmjs.com/package/html-to-image)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/BipStarMap.git
+   ```
+2. Navigate to the directory:
+   ```bash
+   cd BipStarMap
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development
+
+Run the local development server:
+```bash
+npm run dev
+```
+
+### Production Build
+
+Build the project for production (output to `dist/`):
+```bash
+npm run build
+```
+
+## 🔒 Security Disclaimer
+
+This tool is designed for creative and aesthetic purposes. While the star map is a deterministic representation of your seed:
+1. **Physical Security**: If you print this map, treat it with the same level of security as a written seed phrase. Anyone with knowledge of the algorithm could reconstruct your words.
+2. **Environment**: Ensure you are using this tool in a safe, private environment.
+3. **No Storage**: This application does not store your seed phrases. Once you close the tab, the data is gone.
+
+---
+
+## 📜 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+*Designed with ❤️ by [Your Name/Handle]*
