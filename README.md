@@ -76,4 +76,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-*Designed with ❤️ by [Your Name/Handle]*
+*Designed with ❤️ by [aexxa from monoG]*
