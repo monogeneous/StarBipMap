@@ -17,6 +17,8 @@ Star(bip)Map is a security-focused creative tool that converts the deterministic
 - **Responsive Design**: Premium dark-mode UI that works seamlessly on Desktop, iPad, and Mobile.
 - **Security First**: All processing happens locally in your browser. No seed phrases are ever sent to a server.
 
+<img width="2024" height="2024" alt="bip39-starmap-1768785108553" src="https://github.com/user-attachments/assets/b18fd813-8e93-402f-ab0f-8ecc4b7bfcce" />
+
 ## 🛠️ Tech Stack
 
 - **Framework**: [React 19](https://react.dev/)
